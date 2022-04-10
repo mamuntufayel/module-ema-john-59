@@ -1,0 +1,45 @@
+.form-container{
+    width: 600px;
+    margin:  0 auto;
+    border: 1px solid #95A0A7;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    justify-content:center;
+}
+.form-title{
+    font-size: 35px;
+    color: #2a414f;
+    font: weight 400px;
+}
+.input-group{
+    margin: 20px;
+}
+.input-group label{
+    display:block;
+}
+.input-group input{
+    width: 400px;
+    height: 55px;
+    border: 1px solid #95A0A7;
+    box-sizing: border-box;
+    border-radius:5px;
+    font-size:54 px;
+}
+.button{
+    width: 415px;
+    height: 55px;
+    background-color: bisque;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size:24px
+}
+.form-link{
+    color:darkgoldenrod;
+    text-decoration: none;
+}
+.horigental{
+    display: flex;
+    flex-direction: row;
+}
